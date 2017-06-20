@@ -1,7 +1,7 @@
 import { NgModule }             from '@angular/core';
 import { BrowserModule }        from '@angular/platform-browser';
 import { FormsModule }          from '@angular/forms' //NgModule lives here
-import { RouterModule }         from '@angular/router';
+//import { RouterModule }         from '@angular/router';
 
 import { AppComponent }         from './app.component';
 import { HeroDetailComponent }  from './hero-detail.component';
@@ -17,25 +17,6 @@ import { AppRoutingModule }     from './app-routing.module';
   	BrowserModule,
   	FormsModule, // import the FormsModule before binding with [(ngModel)]
     AppRoutingModule
-/*    RouterModule.forRoot([
-		{
-			path: 'heroes',
-			component: HeroesComponent
-		},
-    {
-      path: 'dashboard',
-      component: DashboardComponent
-    },
-    {
-      path: '',
-      redirectTo: '/dashboard',
-      pathMatch: 'full'
-    },
-    {
-      path: 'detail/:id',
-      component: HeroDetailComponent
-    }
-	]) */
   ],
   declarations: [ 
   	AppComponent,
