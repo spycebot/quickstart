@@ -5,7 +5,6 @@ import { HeroService } from './hero.service';
 
 @Component({
 	selector: 'my-dashboard',
-	//template: '<h3>My dashboard</h3>'
 	templateUrl: './dashboard.component.html',
 	styleUrls: ['./dashboard.component.css']
 })

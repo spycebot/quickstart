@@ -5,7 +5,7 @@ export class InMemoryDataService implements InMemoryDbService {
 			{ id: 0, name: 'Pythagarus' },
 			{ id: 11, name: 'Euclid' },
 			{ id: 12, name: 'Johannes Goethe' },
-			{ id: 13, name: 'Issac Newton' },
+			{ id: 13, name: 'Isaac Newton' },
 			{ id: 14, name: 'Michael Faraday' },
 			{ id: 15, name: 'Nicola Tesla' },
 			{ id: 16, name: 'Linus Pauling' },

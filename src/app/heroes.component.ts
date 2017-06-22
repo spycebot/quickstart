@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Hero } from './hero';
 import { HeroService } from './hero.service';
-import { AppComponent } from './app.component';
+//import { AppComponent } from './app.component'; // Not in canon at bottom of https://angular.io/tutorial/toh-pt6
 
 @Component({
   selector: 'my-heroes',
